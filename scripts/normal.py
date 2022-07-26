@@ -21,7 +21,7 @@ log = set(line.rstrip() for line in open(os.path.join(log_path, log_file), 'r'))
 file = open("scripts/logs/normalLog.txt", "a+")
 file_lock = threading.Lock()
 
-projects = [ "cbOptNet" ]
+projects = [ "<project-name>" ]
 
 # parameters of simulation
 num_nodes = [ 128, 1024 ]

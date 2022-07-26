@@ -20,7 +20,7 @@ log = set(line.rstrip() for line in open(os.path.join(log_path, log_file), 'r'))
 file = open("scripts/logs/hpcLog.txt", "a+")
 file_lock = threading.Lock()
 
-projects = [ "cbOptNet" ]
+projects = [ "<project-name>" ]
 
 # parameters of simulation
 num_nodes = [ 1024 ] # Fixed number of nodes
