@@ -24,20 +24,6 @@ then is responsible to decide which nodes can be active in a given round and to 
 message. The major part of the computational process is centralized in the controller node, as the other involved parts, nodes or switches, are considered
 to be mainly data transmitters.
 
-### Extending the Framework
-In order to use the OpticalNet Framewok to implement a re-structuring algorithm the interested party must implement both `getRotationToPerform`, function
-used to decide which rotation (among all permutations from zig-zig or zig-zag, left or right and bottom-up or top-down), if any, the respective node 
-will perform to pass through it's message, and `handleMessage`, function used by the Controller Node to decide which priority he will assign to a given 
-node that inform their intention to act this round.
-
-####
-This repository can't be executed without these functions, as it is the body of a real re-structuring algorithm implementation. It aims to abstract 
-the modelling problems one could have in adapting their algorithm to a real practical application using optical switches or related hardware and to 
-provide a set of tools from which the interested party can analyze the results of their algorithm.
-
-### Input Examples
-[TODO]
-
 ### Plotting Tools
 As said before, after each round this framework will log the round results in the simulation file. We provide some plotting tools with which the interested
 party can analyze their results over some of what we consider to be the most important aspects of efficiency a re-structuring network algorithm is
