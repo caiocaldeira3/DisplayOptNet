@@ -1,4 +1,4 @@
-# BstOpticalNet
+# DisplayOpticalNet
 
 > OBS: This repository is to be used as a framework for the implementation of re-structuring algortihms in distributed networks.
 
